@@ -4,6 +4,7 @@ const Home = () => {
     <>
     <div>
       <img src={ evon }/>
+      <h2>EVON</h2>
     </div>
     </>
   );
