@@ -6,6 +6,7 @@ const Home = () => {
       <img src={ evon }/>
       <h2>EVON</h2>
     </div>
+    <p>Discover upcoming events near you</p>
     </>
   );
 }
