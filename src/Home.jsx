@@ -2,7 +2,7 @@ import evon from './assets/logo (1).png'
 const Home = () => {
   return (
     <div className="flex flex-col justify-center items-center">
-      <div className='flex flex-col'>
+      <div className='flex flex-col justify-center items-center'>
       <img src={ evon }/>
       <h2>EVON</h2>
       </div>
