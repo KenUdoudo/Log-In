@@ -7,6 +7,11 @@ const Home = () => {
       <h2>EVON</h2>
       </div>
      <p className='text-center'>Discover upcoming events near you</p>
+
+     <div>
+      <button>Sign Up</button>
+      <button>Log In</button>
+     </div>
     </div>
   );
 }
