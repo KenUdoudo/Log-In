@@ -8,8 +8,8 @@ const Home = () => {
       </div>
      <p className='text-center text-2xl mt-10'>Discover upcoming events near you</p>
 
-     <div>
-      <button>Sign Up</button>
+     <div className='mt-20 flex flex-col justify-center items-center'>
+      <button className=''>Sign Up</button>
       <button>Log In</button>
      </div>
      <a href="#"><p>Skip For Now</p></a>
