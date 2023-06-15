@@ -9,7 +9,7 @@ const Home = () => {
      <p className='text-center text-2xl mt-10'>Discover upcoming events near you</p>
 
      <div className='mt-20 flex flex-col justify-center items-center'>
-      <button className='border rounded py-2 px-24 text-lg'>Sign Up</button>
+      <button className='border-0 rounded py-2 px-24 text-lg bg-blue-600 text-white'>Sign Up</button>
       <button className='border rounded py-2 px-24 text-lg'>Log In</button>
      </div>
      <a href="#"><p>Skip For Now</p></a>
