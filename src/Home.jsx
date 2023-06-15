@@ -4,9 +4,9 @@ const Home = () => {
     <div className="flex flex-col justify-center items-center">
       <div className='flex flex-col justify-center items-center mt-40'>
       <img src={ evon }/>
-      <h2 className='text-2xl font-semibold'>EVON</h2>
+      <h2 className='text-2xl font-semibold mt-6'>EVON</h2>
       </div>
-     <p className='text-center'>Discover upcoming events near you</p>
+     <p className='text-center text-2xl mt-10'>Discover upcoming events near you</p>
 
      <div>
       <button>Sign Up</button>
