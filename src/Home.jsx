@@ -10,9 +10,9 @@ const Home = () => {
 
      <div className='mt-20 flex flex-col justify-center items-center'>
       <button className='border-0 rounded py-2 px-24 text-lg bg-blue-600 text-white'>Sign Up</button>
-      <button className='border border-blue-600 text-blue-600 rounded py-2 px-24 text-xl'>Log In</button>
+      <button className='border border-blue-600 text-blue-600 rounded py-2 px-24 text-xl mt-4'>Log In</button>
      </div>
-     <a href="#"><p>Skip For Now</p></a>
+     <a href="#" className='mt-10'><p className=' text-blue-600'>Skip For Now</p></a>
     </div>
   );
 }
