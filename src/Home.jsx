@@ -12,6 +12,7 @@ const Home = () => {
       <button>Sign Up</button>
       <button>Log In</button>
      </div>
+     <a href="#"><p>Skip For Now</p></a>
     </div>
   );
 }
