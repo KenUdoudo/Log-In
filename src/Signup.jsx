@@ -6,7 +6,7 @@ const SignUp = () => {
       <form>
         <input type="text" placeholder='Full name' required/>
         <input type="email" placeholder='Email' required/>
-        <input type="text" placeholder='Full name' required/>
+        <input type="password" placeholder='Password' required/>
         <button type="submit">Sign Up</button>
       </form>
     </div>
