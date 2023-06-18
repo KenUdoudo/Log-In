@@ -9,6 +9,11 @@ const SignUp = () => {
         <input type="password" placeholder='Password' required/>
         <button type="submit">Sign Up</button>
       </form>
+      <div>
+        <hr />
+        <p>or</p>
+        <hr />
+      </div>
     </div>
   );
 }
