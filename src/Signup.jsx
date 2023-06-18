@@ -3,9 +3,12 @@ const SignUp = () => {
   return (  
     <div>
       <img src={ evon }/>
-      <div>
-        <input type="text" placeholder='Full name'/>
-      </div>
+      <form>
+        <input type="text" placeholder='Full name' required/>
+        <input type="email" placeholder='Email' required/>
+        <input type="text" placeholder='Full name' required/>
+        <button type="submit">Sign Up</button>
+      </form>
     </div>
   );
 }
