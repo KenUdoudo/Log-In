@@ -3,7 +3,7 @@ const SignUp = () => {
   return (  
     <div className='flex flex-col justify-center items-center'>
       <img src={ evon }/>
-      <form>
+      <form className='flex flex-col justify-center items-center'>
         <input type="text" placeholder='Full name' required/>
         <input type="email" placeholder='Email' required/>
         <input type="password" placeholder='Password' required/>
