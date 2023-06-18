@@ -1,7 +1,7 @@
 import evon from './assets/logo (1).png'
 const SignUp = () => {
   return (  
-    <div>
+    <div className='flex flex-col justify-center items-center'>
       <img src={ evon }/>
       <form>
         <input type="text" placeholder='Full name' required/>
