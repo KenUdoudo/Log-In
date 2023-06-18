@@ -3,6 +3,9 @@ const SignUp = () => {
   return (  
     <div>
       <img src={ evon }/>
+      <div>
+        <input type="text" placeholder='Full name'/>
+      </div>
     </div>
   );
 }
