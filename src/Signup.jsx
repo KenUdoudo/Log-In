@@ -16,7 +16,7 @@ const SignUp = () => {
         <hr />
       </div>
       <div>
-        <div className='flex flex-row justify-center items-center'>
+        <div className='flex flex-row justify-center items-center bg-blue-950'>
           <img src={ facebook }/>
           <p>Sign up with Facebook</p>
         </div>
