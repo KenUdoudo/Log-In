@@ -16,9 +16,9 @@ const SignUp = () => {
         <hr />
       </div>
       <div>
-        <div className='flex flex-row justify-center items-center bg-blue-950'>
+        <div className='flex flex-row justify-center items-center bg-blue-950 py-2'>
           <img src={ facebook } className='px-3'/>
-          <p className='bg-blue-700'>Sign up with Facebook</p>
+          <p className='bg-blue-700 px-2 py-2'>Sign up with Facebook</p>
         </div>
       </div>
     </div>
