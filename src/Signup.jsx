@@ -1,5 +1,6 @@
 import evon from './assets/logo (1).png'
 import facebook from './assets/logo (3).png'
+import google from './assets/logo (2).png'
 const SignUp = () => {
   return (  
     <div className='flex flex-col justify-center items-center'>
@@ -15,12 +16,14 @@ const SignUp = () => {
         <p>or</p>
         <hr />
       </div>
-      <div>
         <div className='flex flex-row justify-center items-center bg-blue-950'>
           <img src={ facebook } className='px-3  py-2'/>
           <p className='bg-blue-700 px-2 py-2 text-base font-semibold text-white'>Sign up with Facebook</p>
         </div>
-      </div>
+        <div className='flex flex-row justify-center items-center bg-blue-950'>
+          <img src={ facebook } className='px-3  py-2'/>
+          <p className='bg-blue-700 px-2 py-2 text-base font-semibold text-white'>Sign up with Facebook</p>
+        </div>
     </div>
   );
 }
