@@ -1,4 +1,5 @@
 import evon from './assets/logo (1).png'
+import facebook from './assets/logo (2).png'
 const SignUp = () => {
   return (  
     <div className='flex flex-col justify-center items-center'>
@@ -13,6 +14,11 @@ const SignUp = () => {
         <hr />
         <p>or</p>
         <hr />
+      </div>
+      <div>
+        <div>
+
+        </div>
       </div>
     </div>
   );
