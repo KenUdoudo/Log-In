@@ -17,7 +17,8 @@ const SignUp = () => {
       </div>
       <div>
         <div>
-
+          <img src={ facebook }/>
+          <p>Sign up with Facebook</p>
         </div>
       </div>
     </div>
