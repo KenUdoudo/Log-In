@@ -1,5 +1,5 @@
 import evon from './assets/logo (1).png'
-import facebook from './assets/logo (2).png'
+import facebook from './assets/logo (3).png'
 const SignUp = () => {
   return (  
     <div className='flex flex-col justify-center items-center'>
@@ -16,7 +16,7 @@ const SignUp = () => {
         <hr />
       </div>
       <div>
-        <div>
+        <div className='flex flex-row justify-center items-center'>
           <img src={ facebook }/>
           <p>Sign up with Facebook</p>
         </div>
