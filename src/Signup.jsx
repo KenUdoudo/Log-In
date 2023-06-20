@@ -7,7 +7,7 @@ const SignUp = () => {
         <input type="text" placeholder='Full name' className='border-0 rounded bg-gray-200 pl-4 py-1 pr-5 text-xl' required/>
         <input type="email" placeholder='Email' className='border-0 rounded bg-gray-200 pl-4 py-1 pr-5 text-xl' required/>
         <input type="password" placeholder='Password' className='border-0 rounded bg-gray-200 pl-4 py-1 pr-5 text-xl' required/>
-        <button type="submit" className='border-0 rounded bg-blue-600 px-20 py-1 text-lg text-white'>Sign Up</button>
+        <button type="submit" className='border-0 rounded bg-blue-600 px-24 py-1 text-lg text-white'>Sign Up</button>
       </form>
       <div>
         <hr />
