@@ -9,7 +9,7 @@ const SignUp = () => {
         <input type="password" placeholder='Password' className='border-0 rounded bg-gray-200 pl-4 py-1 pr-5 text-xl' required/>
         <button type="submit" className='border-0 rounded bg-blue-600 px-24 py-1 text-lg text-white'>Sign Up</button>
       </form>
-      <div>
+      <div className='flex flex-row justify-center items-center mt-4'>
         <hr />
         <p>or</p>
         <hr />
