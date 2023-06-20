@@ -20,9 +20,9 @@ const SignUp = () => {
           <img src={ facebook } className='px-3  py-2'/>
           <p className='bg-blue-700 px-2 py-2 text-base font-semibold text-white'>Sign up with Facebook</p>
         </div>
-        <div className='flex flex-row justify-center items-center'>
+        <div className='flex flex-row justify-center items-center mt-4'>
           <img src={ google } className='px-3  py-2'/>
-          <p className='bg-gray-300 px-2 py-2 text-base font-semibold text-white'>Sign up with Google</p>
+          <p className='bg-gray-300 pr-5 pl-2 py-2 text-base font-semibold'>Sign up with Google</p>
         </div>
     </div>
   );
