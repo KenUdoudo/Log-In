@@ -17,8 +17,8 @@ const SignUp = () => {
       </div>
       <div>
         <div className='flex flex-row justify-center items-center bg-blue-950'>
-          <img src={ facebook }/>
-          <p>Sign up with Facebook</p>
+          <img src={ facebook } className='px-3'/>
+          <p className='bg-blue-700'>Sign up with Facebook</p>
         </div>
       </div>
     </div>
