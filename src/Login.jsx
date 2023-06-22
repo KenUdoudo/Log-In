@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom'
 const SignUp = () => {
   return (  
     <div className='flex flex-col justify-center items-center'>
-      <img src={ evon } className='mt-20'/>
+      <img src={ evon } className='mt-10'/>
       <form className='flex flex-col justify-center items-center mt-20 gap-y-4'>
         <input type="email" placeholder='Email' className='border-0 rounded bg-gray-200 pl-4 py-1 pr-5 text-xl' required/>
         <input type="password" placeholder='Password' className='border-0 rounded bg-gray-200 pl-4 py-1 pr-5 text-xl' required/>
         <button type="submit" className='border-0 rounded bg-blue-600 px-24 py-1 text-lg text-white'>Log In</button>
       </form>
-      <p className='text-blue-600'>Forgot Password?</p>
+      <p className='text-blue-600 mt-4'>Forgot Password?</p>
       <div className='flex flex-row justify-center items-center mt-4'>
         <hr />
         <p>or</p>
@@ -25,7 +25,7 @@ const SignUp = () => {
           <img src={ google } className='px-3  py-2'/>
           <p className='bg-gray-300 pr-5 pl-2 py-2 text-base font-semibold'>Log In with Google</p>
         </div>
-        <p>Don't have an account? <Link to='./SignUp'><span className='text-blue-600'>Sign up</span></Link></p>
+        <p className='mt-20'>Don't have an account? <Link to='./SignUp'><span className='text-blue-600'>Sign up</span></Link></p>
     </div>
   );
 }
