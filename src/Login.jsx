@@ -25,7 +25,7 @@ const SignUp = () => {
           <img src={ google } className='px-3  py-2'/>
           <p className='bg-gray-300 pr-5 pl-2 py-2 text-base font-semibold'>Log In with Google</p>
         </div>
-        <p className='mt-20'>Don't have an account? <Link to='./SignUp'><span className='text-blue-600'>Sign up</span></Link></p>
+        <p className='mt-20'>Don't have an account? <Link to='/SignUp'><span className='text-blue-600'>Sign up</span></Link></p>
     </div>
   );
 }
