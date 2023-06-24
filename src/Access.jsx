@@ -6,6 +6,10 @@ const Access = () => {
       <img src={ evon } className='mt-10'/>
       </div>
       <p className='text-center text-gray-400 font-semibold text-3xl'>Welcome! to Evon</p>
+      <div>
+        <div></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, dolore! Cupiditate deleniti ut possimus, quisquam, magnam voluptatibus vel maxime doloremque quis nobis sint! Vel saepe sapiente, aperiam possimus praesentium unde!</p>
+      </div>
     </div>
   );
 }
