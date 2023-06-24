@@ -5,7 +5,7 @@ const Access = () => {
       <div className='flex flex-col justify-center items-center'>
       <img src={ evon } className='mt-10'/>
       </div>
-      <p>Welcome! to Evon</p>
+      <p className='text-center text-gray-400 font-semibold text-3xl'>Welcome! to Evon</p>
     </div>
   );
 }
