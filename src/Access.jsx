@@ -10,7 +10,7 @@ const Access = () => {
         <div className='bg-gray-400 border-0 rounded'></div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, dolore! Cupiditate deleniti ut possimus, quisquam, magnam voluptatibus vel maxime doloremque quis nobis sint! Vel saepe sapiente, aperiam possimus praesentium unde!</p>
       </div>
-      <div className='flex flex-col justify-center items-center mt-5'>
+      <div className='flex flex-col-reverse justify-center items-center mt-5'>
         <div className='bg-gray-400 border-0 rounded'></div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, dolore! Cupiditate deleniti ut possimus, quisquam, magnam voluptatibus vel maxime doloremque quis nobis sint! Vel saepe sapiente, aperiam possimus praesentium unde!</p>
       </div>
