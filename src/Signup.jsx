@@ -7,9 +7,9 @@ const SignUp = () => {
     <div className='flex flex-col justify-center items-center'>
       <img src={ evon } className='mt-14'/>
       <form className='flex flex-col justify-center items-center mt-20 gap-y-4'>
-        <input type="text" placeholder='Full name' className='border-0 rounded bg-gray-200 pl-4 py-1 pr-5 text-xl' required/>
-        <input type="email" placeholder='Email' className='border-0 rounded bg-gray-200 pl-4 py-1 pr-5 text-xl' required/>
-        <input type="password" placeholder='Password' className='border-0 rounded bg-gray-200 pl-4 py-1 pr-5 text-xl' required/>
+        <input type="text" placeholder='Full name' className='border-0 rounded bg-gray-200 pl-4 py-1 pr-5 text-xl' id='fullName' required/>
+        <input type="email" placeholder='Email' className='border-0 rounded bg-gray-200 pl-4 py-1 pr-5 text-xl' id='eMail' required/>
+        <input type="password" placeholder='Password' className='border-0 rounded bg-gray-200 pl-4 py-1 pr-5 text-xl' id='password' required/>
         <button type="submit" className='border-0 rounded bg-blue-600 px-24 py-1 text-lg text-white'>Sign Up</button>
       </form>
       <div className='flex flex-row justify-center items-center my-2'>
