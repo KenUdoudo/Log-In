@@ -14,8 +14,8 @@ const Access = () => {
         <div className='bg-gray-400 border-0 rounded'></div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, dolore! Cupiditate deleniti ut possimus, quisquam, magnam voluptatibus vel maxime doloremque quis nobis sint! Vel saepe sapiente, aperiam possimus praesentium unde!</p>
       </div>
-      <p>if you can see this i have suffered
-      </p>
+      <p>if you can see this i have suffered</p>
+      <p>all this just to get out of here</p>
     </div>
   );
 }
