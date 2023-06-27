@@ -7,7 +7,9 @@ const SignUp = () => {
   const errorMsg = getElementById('error');
   function submit(){
     if(fullName.value === ""){
-       
+       errorMsg.innerText = 'Please input feild'
+    } else{
+      errorMsg.innerText = ''
     }
   }
   return (  
