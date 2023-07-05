@@ -6,7 +6,11 @@ import five from './assets/wallpaperflare.com_wallpapper (7).jpg'
 const Skip = () => {
   return ( 
     <div>
-      
+      <img src={ one }/>
+      <img src={ two }/>
+      <img src={ three }/>
+      <img src={ four }/>
+      <img src={ five }/>
     </div>
   );
 }
