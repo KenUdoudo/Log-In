@@ -5,7 +5,7 @@ import four from './assets/wallpaperflare.com_wallpaper (9).jpg'
 import five from './assets/wallpaperflare.com_wallpaper (7).jpg'
 const Skip = () => {
   return ( 
-    <div>
+    <div className='flex flex-col'>
       <img src={ One }/>
       <img src={ two }/>
       <img src={ three }/>
