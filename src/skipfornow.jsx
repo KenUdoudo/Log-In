@@ -6,11 +6,11 @@ import five from './assets/wallpaperflare.com_wallpaper (7).jpg'
 const Skip = () => {
   return ( 
     <div className='flex flex-col justify-center items-center gap-y-4'>
-      <img src={ One }/>
-      <img src={ two }/>
-      <img src={ three }/>
-      <img src={ four }/>
-      <img src={ five }/>
+      <img src={ One } className='w-3/5'/>
+      <img src={ two } className='w-3/5'/>
+      <img src={ three } className='w-3/5'/>
+      <img src={ four } className='w-3/5'/>
+      <img src={ five } className='w-3/5'/>
     </div>
   );
 }
