@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { useState } from 'react'
 const LogIn = () => {
   const [email, setEmail] = useState("");
-  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   return (  
     <div className='flex flex-col justify-center items-center'>
       <img src={ evon } className='mt-10'/>
