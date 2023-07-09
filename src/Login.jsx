@@ -13,8 +13,8 @@ const LogIn = () => {
     <div className='flex flex-col justify-center items-center'>
       <img src={ evon } className='mt-10'/>
       <form className='flex flex-col justify-center items-center mt-20 gap-y-4'>
-        <input type="email" placeholder='email' onChange={(e)=> setEmail(e.target.value)} className='border-0 rounded bg-gray-200 pl-4 py-1 pr-5 text-xl' required/>
-        <input type="password" placeholder='password' className='border-0 rounded bg-gray-200 pl-4 py-1 pr-5 text-xl' onChange={(e)=> setPassword(e.target.value)} required/>
+        <input type="email" placeholder='email' value={ email } onChange={(e)=> setEmail(e.target.value)} className='border-0 rounded bg-gray-200 pl-4 py-1 pr-5 text-xl' required/>
+        <input type="password" placeholder='password' className='border-0 rounded bg-gray-200 pl-4 py-1 pr-5 text-xl' value={ password } onChange={(e)=> setPassword(e.target.value)} required/>
         <button onClick={ login } className='border-0 rounded bg-blue-600 px-24 py-1 text-lg text-white'>Log In</button>
       </form>
       <p className='text-blue-600 mt-4'>Forgot Password?</p>
