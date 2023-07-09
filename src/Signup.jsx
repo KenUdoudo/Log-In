@@ -5,6 +5,8 @@ import google from './assets/logo (2).png'
 import { Link } from 'react-router-dom'
 const SignUp = () => {
   const [name, setName] = useState("")
+  const [password, setPassword] = useState("")
+  const [email, setEmail] = useState("")
 
   return (  
     <div className='flex flex-col justify-center items-center'>
