@@ -1,8 +1,11 @@
+import { useState } from 'react'
 import evon from './assets/logo (1).png'
 import facebook from './assets/logo (3).png'
 import google from './assets/logo (2).png'
 import { Link } from 'react-router-dom'
 const SignUp = () => {
+  const [name, setName] = useState("")
+
   return (  
     <div className='flex flex-col justify-center items-center'>
       <img src={ evon } className='mt-14'/>
