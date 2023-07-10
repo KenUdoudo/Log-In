@@ -10,6 +10,8 @@ const SignUp = () => {
 
   function signup(){
     console.warn(name, password, email)
+
+    fetch('https://delx-api.onrender.com/api/v1/user/signup')
   }
   return (  
     <div className='flex flex-col justify-center items-center'>
