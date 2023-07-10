@@ -18,7 +18,7 @@ const SignUp = () => {
         <input type="text" placeholder='Full name' className='border-0 rounded bg-gray-200 pl-4 py-1 pr-5 text-xl' value={ name } onChange={(e) => setName(e.target.value)} required/>
         <input type="email" placeholder='Email' className='border-0 rounded bg-gray-200 pl-4 py-1 pr-5 text-xl' value={ email } onChange={(e) => setEmail(e.target.value)} required/>
         <input type="password" placeholder='Password' className='border-0 rounded bg-gray-200 pl-4 py-1 pr-5 text-xl' value={ password } onChange={(e) => setPassword(e.target.value)} required/>
-        <button type="submit" className='border-0 rounded bg-blue-600 px-24 py-1 text-lg text-white' >Sign Up</button>
+        <button type="submit" onClick={ signup } className='border-0 rounded bg-blue-600 px-24 py-1 text-lg text-white' >Sign Up</button>
       </form>
       <div className='flex flex-row justify-center items-center my-2'>
         <hr />
