@@ -8,6 +8,9 @@ const SignUp = () => {
   const [password, setPassword] = useState("")
   const [email, setEmail] = useState("")
 
+  function signup(){
+    console.warn(name, password, email)
+  }
   return (  
     <div className='flex flex-col justify-center items-center'>
       <img src={ evon } className='mt-14'/>
