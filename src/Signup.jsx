@@ -11,7 +11,7 @@ const SignUp = () => {
   async function signup(){
     console.warn(name, password, email)
 
-    let result fetch('https://delx-api.onrender.com/api/v1/user/signup', {
+    let result= await fetch('https://delx-api.onrender.com/api/v1/user/signup', {
       method: 'POST'
       body: JSON.stringify(item)
       headers:{
