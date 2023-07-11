@@ -11,7 +11,14 @@ const SignUp = () => {
   function signup(){
     console.warn(name, password, email)
 
-    fetch('https://delx-api.onrender.com/api/v1/user/signup')
+    fetch('https://delx-api.onrender.com/api/v1/user/signup', {
+      method: 'POST'
+      body: JSON.stringify(item)
+      headers:{
+        "Content-Type":'application/json',
+        "Accept": 'application/json'
+      }
+    })
   }
   return (  
     <div className='flex flex-col justify-center items-center'>
