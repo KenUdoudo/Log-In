@@ -19,6 +19,7 @@ const SignUp = () => {
         "Accept": 'application/json'
       }
     })
+    result = await result.json()
   }
   return (  
     <div className='flex flex-col justify-center items-center'>
