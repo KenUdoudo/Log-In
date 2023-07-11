@@ -8,10 +8,10 @@ const SignUp = () => {
   const [password, setPassword] = useState("")
   const [email, setEmail] = useState("")
 
-  function signup(){
+  async function signup(){
     console.warn(name, password, email)
 
-    fetch('https://delx-api.onrender.com/api/v1/user/signup', {
+    let result fetch('https://delx-api.onrender.com/api/v1/user/signup', {
       method: 'POST'
       body: JSON.stringify(item)
       headers:{
