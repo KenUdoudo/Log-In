@@ -12,8 +12,8 @@ const SignUp = () => {
     console.warn(name, password, email)
 
     let result= await fetch('https://delx-api.onrender.com/api/v1/user/signup', {
-      method: 'POST'
-      body: JSON.stringify(item)
+      method: 'POST',
+      body: JSON.stringify(item),
       headers:{
         "Content-Type":'application/json',
         "Accept": 'application/json'
